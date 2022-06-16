@@ -1,0 +1,42 @@
+@media(max-width: 1298px) {
+  .footer__title {
+    font-size: 3.7vw;
+  }
+
+  .footer__rect-right {
+    display: none;
+  }
+
+  .footer__rect-middle {
+    width: 55%;
+  }
+
+  .footer__rect-left {
+    width: 20%;
+  }
+
+  .footer__container {
+    justify-content: space-around;
+  }
+
+  .about-us__content-rect-right-item-content {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .about-us__content-rect-right-item_img1 {
+    display: flex;
+    padding-left: 3%;
+    align-items: center;
+  }
+
+  .about-us__content-rect-right-item_img2 {
+    display: flex;
+    padding-left: 3%;
+    align-items: center;
+  }
+
+  .header__container {
+    max-width: 100%;
+  }
+}

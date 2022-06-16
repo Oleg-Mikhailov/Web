@@ -1,0 +1,383 @@
+@media(max-width: 1024px) {
+
+  .root {
+    --base-text-color: #333333;
+    --hero-text-color: #ffffff;
+    --footer-text-color: #cacaca;
+    --hover-style-color: #ff9900;
+    --active-style-color: #e1670e;
+    --hover-focus-button-background-color: #f78045;
+    --active-background-color: #e1670e;
+    --hover-focus-btn1-background-color: #666666;
+    --active-btn1-background-color: #000000;
+    --hover-focus-active-btn1-color: #ffffff;
+    --active-faq-color: #ececec;
+    --margin-bottom-1024: 30px;
+    --element-width: 768px;
+  }
+
+  .container {
+    /*margin: 0 auto;*/
+    padding: 0 50px 0 50px;
+    background-color: #ffffff;
+    /* max-width: 100%; */
+  }
+
+  .header__container {
+    display: flex;
+    margin: 0 auto;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .header {
+    display: none;
+    /*    max-width: 100%;*/
+  }
+
+  .nav1024__list {
+    margin: 0;
+    padding: 0 50px;
+    /*min-width: 1024px;*/
+    /*min-width: 1770px;*/
+    width: 100%;
+    /*max-width: 100%;*/
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .burger .logo .search {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+  }
+
+  .hero {
+    margin-bottom: 61px;
+    padding: 164px 82px 183px 75px;
+    max-height: 701px;
+    background-size: cover;
+    max-width: 100%;
+    /*width: 924px;*/
+  }
+
+  .hero__main-title {
+    margin: 0 0 11px 0;
+    font-size: 62px;
+    line-height: 73.14px;
+  }
+
+  .hero__descr {
+    margin-bottom: 58px;
+    font-size: 20.4px;
+    line-height: 26.38px;
+  }
+
+  .btn {
+    padding: 23px 41px;
+    font-size: 23.46px;
+    line-height: 29.6px;
+  }
+
+  .about-us__descr {
+    padding: 0;
+    margin-bottom: 73px;
+    font-size: 15.5px;
+    line-height: 32px;
+    min-width: var(--element-width);
+  }
+
+  .about-us__content {
+    flex-direction: column;
+    margin-bottom: 89px;
+  }
+
+  .title {
+    margin-bottom: 9px;
+    font-size: 47px;
+  }
+
+  .about-us__content-rect-left {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;*/
+    margin: 0 0 32px 0;
+    min-height: 628px;
+    /* min-width: var(--element-width); */
+    max-width: 100%;
+    background-size: cover;
+    /* background-position: 0% 0%; */
+  }
+
+  .about-us__content-rect-left-lower {
+    /* padding: 0 50px; */
+    display: flex;
+    min-height: 195px;
+    min-width: 100%;
+    background-position: 0% 0%;
+  }
+
+  .about-us__content-rect-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    /* min-width: 870px; */
+    /* min-height: 295px; */
+  }
+
+  .about-us__descr1 {
+    /* padding-right: 197px; */
+    max-width: 454px;
+  }
+
+  .about-us__btn {
+    padding: 19px 42px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.5px;
+    max-width: 300px;
+  }
+
+  .about-us__element-style {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  /*.about-us__content-rect-right-item {
+    padding: 105px 167px 101px 331px;
+  }*/
+
+  .about-us__content-rect-right-item1 {
+    padding: 40px 167px 27px 316px;
+    outline: 1px solid #cacaca;
+  }
+
+  .about-us__content-rect-right-item {
+    /* padding: 67px 117px 45px 316px; */
+    padding: 0;
+    padding-top: 67px;
+    padding-bottom: 45px;
+    max-width: 100%;
+  }
+
+  .about-us__content-rect-right-item:not(:last-child) {
+    margin-bottom: 38px;
+  }
+
+  .about-us__content-rect-right-item-content {
+    padding-right: 106px;
+  }
+
+  .about-us__content-text {
+    font-size: 15.7px;
+    line-height: 31px;
+  }
+
+  .about-us__content-rect-right-item_img1 {
+    /* background: url('../img/about-us2.svg') no-repeat 11% center; */
+    background: none;
+  }
+
+  .about-us__content-rect-right-item_img2 {
+    /* background: url('../img/about-us3.svg') no-repeat 11% center; */
+    background: none;
+  }
+
+  .about-us__subtitle {
+    margin: 0 0 11px 0;
+    font-size: 24px;
+  }
+
+  .how__title {
+    margin-bottom: 20px;
+    font-size: 47px;
+  }
+
+  .subtitle-how {
+    margin-bottom: 9px;
+    font-size: 24.5px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .about-us__content-text {
+    font-size: 15.7px;
+    font-weight: 400;
+    line-height: 31px;
+  }
+
+  .how {
+    color: var(--base-text-color);
+    margin-bottom: 61px;
+  }
+
+  .how__page-style {
+    display: flex;
+    padding: 0;
+    padding-top: 24px;
+  }
+
+  .how__step {
+    margin: 0;
+    padding: 0;
+    margin-right: 84px;
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: var(--hero-text-color);
+    border: none;
+    transition: color, border-color 200ms linear;
+    cursor: pointer;
+  }
+
+  .how__rect {
+    display: flex;
+    padding-top: 34px;
+    flex-direction: row;
+  }
+
+  .how__rect-left {
+    min-width: 250px;
+    margin-right: 50px;
+    /*padding: 3px 141px 45px 0;*/
+    /*font-size: 15.5px;
+    font-weight: 400;*/
+  }
+
+  .how__descr {
+    padding: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .how__btn {
+    margin-right: 32px;
+    line-height: 20px;
+  }
+
+  .how__btn1 {
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .how__btn-style {
+    margin: 0;
+    max-width: 250px;
+    display: flex;
+  }
+
+  .how__rect-right {
+    background: url('../img/how-pict-1024.png') no-repeat;
+    background-size: auto 100%;
+  }
+
+  .faq {
+    margin-bottom: 28px;
+  }
+
+  .faq__rect {
+    font-size: 17.4px;
+    line-height: 32px;
+    min-height: 115.5px;
+  }
+
+  .faq__rect:last-child {
+    min-height: 53px;
+    /* border-bottom: 1px solid; */
+    /* border-color: #cacaca; */
+    /* transition: border-color 200ms linear; */
+  }
+
+  .faq__item {
+    max-width: 755px;
+  }
+
+  .footer__rect-left {
+    /* min-width: 100%; */
+    /* margin-right: 133px; */
+    min-width: 200px;
+    max-width: 33%;
+  }
+
+  /*.footer__rect-middle {
+    padding-left: 19px;
+    max-width: 560px;
+  }*/
+
+  .footer__rect-middle {
+    /* min-width: 100%; */
+    width: 50%;
+    max-width: 100%;
+  }
+
+  .footer__rect-right {
+    min-width: 100%;
+    display: none;
+  }
+
+  .footer__input {
+    padding: 0 27px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    line-height: 59px;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  /*.footer__style {
+    max-width: 540px;
+  }*/
+
+  .footer__icon {
+    padding-top: 73px;
+  }
+
+  .footer__container {
+    padding: 50px 50px 0 50px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    /* max-width: 924px; */
+  }
+
+  .footer__button-style {
+    padding: 14px 38px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .footer__logo {
+    margin-bottom: -5px;
+  }
+
+  .footer__style {
+    margin-bottom: 49px;
+    max-width: 100%;
+    width: 100%
+  }
+  .footer__container {
+    max-width: 100%;
+    width: 100%
+  }
+
+
+}

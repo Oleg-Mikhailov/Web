@@ -1,0 +1,123 @@
+@media(max-width: 496px) {
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 104px;
+    background: url('../img/hero1.png') no-repeat center;
+    background-size: cover;
+    min-width: 100%;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 837px;
+    max-height: 700px;
+    word-wrap: break-word;
+  }
+
+  .hero__main-title {
+    margin: 0 0 20px 0;
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 10vw;
+    line-height: 100%;
+    color: var(--hero-text-color);
+  }
+
+  .hero__descr {
+    margin-bottom: 25px;
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24.4px;
+    line-height: 27.3px;
+    max-width: 790px;
+    color: var(--hero-text-color);
+  }
+
+  .btn {
+    padding: 20px 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 20px;
+  }
+
+  .about-us__content-rect-right-item {
+    max-height: 800px;
+  }
+
+  .about-us__content-rect-left-lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    min-height: 196px;
+    max-height: 500px;
+  }
+
+  .about-us__descr1 {
+    display: flex;
+    /* padding-bottom: 25px; */
+    max-width: 220px;
+    max-height: 400px;
+    justify-content: center;
+  }
+
+  .about-us__btn {
+    padding: 19px 7px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.5px;
+    max-width: 300px;
+  }
+
+  .about-us__element-style {
+    padding: 0 0 25px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    max-width: 366px;
+  }
+
+  .footer__rect-middle {
+    /* min-width: 100%; */
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer__style {
+    flex-direction: column-reverse;
+    margin-bottom: 49px;
+    max-width: 100%;
+    width: 100%
+  }
+
+  .footer__checkbox {
+    margin-bottom: 30px;
+  }
+
+  .footer__input-message {
+    margin-bottom: 30px;
+  }
+
+  .footer__rect-left {
+    margin: 0;
+  }
+
+  .footer__container {
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer__title {
+    font-size: 8vw;
+  }
+  }
